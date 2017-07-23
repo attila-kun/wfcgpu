@@ -4,6 +4,7 @@
   "description": "Wave Function Collapse on the GPU",
   "main": "index.js",
   "scripts": {
+    "install": "./node_modules/webpack/bin/webpack.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/attila-kun/wfcgpu/issues"
   },
-  "homepage": "https://github.com/attila-kun/wfcgpu#readme"
+  "homepage": "https://github.com/attila-kun/wfcgpu#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "awesome-typescript-loader": "3.2.1",
+    "source-map-loader": "0.2.1",
+    "typescript": "2.4.2",
+    "webpack": "3.3.0"
+  }
 }
